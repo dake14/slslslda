@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+h2{
+    margin:0.1em;
+    padding: 0.1em;
+    border: 0%;
+    background-color:#8774FF;
+    color: blueviolet;
+   font-size: 4em;
+   font-family: 'Fredoka One', cursive;
+    
+}
+
+
+h3{
+    background-color:#4591f5;
+    color: rgb(152, 255, 255);
+   font-size: 2em;
+   font-family: 'Fredoka One', cursive;
+   
+}
+
+
+.abso{
+  position: absolute;  
+  width: 100%;
+  display: inline;
+}
+
+
+.midleft{
+ position: relative;   
+ width: 50%;
+ display: flex;
+ float: left;
+}
+.midri{
+    position: relative;   
+    width: 50%;
+    display: flex;
+    float: right;
+    color: blueviolet;
+    background-color: cornflowerblue;
+    font-size: 2.45em;
+   }
+
+
+   hr{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 10px;
+    color: aqua;
+   }
+ul{
+  margin: 1%;
+  padding: 1%;
+  border: 1%;
+}
+ li{
+ color: aqua;
+ background-color: blueviolet;
+ border: 4px;
+ border-color: #0c213d;
+ margin: 1%;
+ padding: 1%;
+ border: 1%;
+ font-family: 'Indie Flower', cursive;
+ font-size: 2.5em;
+
+ }
+.sw{
+  position: absolute;
+}
+.f{
+  position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ z-index: 2;
+ opacity: 0.8;
+
+
+}      
+
+
+  .t{
+    position: relative;
+    z-index: 8;
+    display:inline-block
+   
+    
+  }   
+   
+.wq{
+  background-color: rgb(165, 238, 238);
+}
